@@ -5,3 +5,4 @@ __pycache__/
 *.so
 # Environments
 .venv
+# consider ignore *data* if data is very large

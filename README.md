@@ -12,12 +12,12 @@ git push
 ```sh
 |-- project-demo
 |   |-- data
-|   |   |-- example_data.csv
+|   |   |-- example.csv
 |   |-- notebooks
-|   |   | -- example_notebook.ipynb
+|   |   | -- example.ipynb
 |   |-- src
 |   |   | -- __init__.py
-|   |   | -- example_script.py
+|   |   | -- example.py
 |   |-- requirements.txt
 |   |-- README.md
 ```
@@ -49,4 +49,14 @@ __pycache__/
 *.so
 # Environments
 .venv
+```
+6. freeze requirements.txt
+```sh
+pip freeze > requirements.txt
+```
+7. push to github
+```
+git add .
+git commit -m 'updated'
+git push
 ```
